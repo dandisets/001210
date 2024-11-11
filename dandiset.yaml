@@ -6,9 +6,36 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 28333789312
+  numberOfFiles: 3
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OpticalChannel
+  - ImagingPlane
+  - SpatialSeries
+  - Position
+  - ProcessingModule
 citation: Bakker, Marleen (2024) Intrinsic optical imaging (IOI) and GCaMP mouse brain
   data, with and without rigidified carotid artery (Version draft) [Data set]. DANDI
   archive. https://dandiarchive.org/dandiset/001210/draft
@@ -21,6 +48,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-10-18T20:18:47.706730+00:00'
+datePublished: '2024-11-11T17:57:57.817701+00:00'
 description: 'Dataset corresponding to the article "Neurovascular Coupling over Cortical
   Brain Areas and Resting State  Network Connectivity With and Without Rigidified
   Carotid Artery". '
@@ -32,6 +60,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001210/versions/draft/assets/
 name: Intrinsic optical imaging (IOI) and GCaMP mouse brain data, with and without
   rigidified carotid artery
+publishedBy:
+  endDate: '2024-11-11T17:57:57.817701+00:00'
+  id: urn:uuid:00131370-8575-4410-bc3b-165d467ff254
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-11-11T17:57:57.817701+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:a6b14626-386a-4b75-99f8-40aff5b85200
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
