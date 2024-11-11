@@ -22,9 +22,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 28333789312
-  numberOfFiles: 3
-  numberOfSubjects: 1
+  numberOfBytes: 56677001352
+  numberOfFiles: 6
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -37,8 +37,8 @@ assetsSummary:
   - Position
   - ProcessingModule
 citation: Bakker, Marleen (2024) Intrinsic optical imaging (IOI) and GCaMP mouse brain
-  data, with and without rigidified carotid artery (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/001210/draft
+  data, with and without rigidified carotid artery (Version 0.241111.1757) [Data set].
+  DANDI archive. https://doi.org/10.48324/dandi.001210/0.241111.1757
 contributor:
 - affiliation: []
   email: marleenbakkermarleen@gmail.com
@@ -52,12 +52,13 @@ datePublished: '2024-11-11T17:57:57.817701+00:00'
 description: 'Dataset corresponding to the article "Neurovascular Coupling over Cortical
   Brain Areas and Resting State  Network Connectivity With and Without Rigidified
   Carotid Artery". '
-id: DANDI:001210/draft
+doi: 10.48324/dandi.001210/0.241111.1757
+id: DANDI:001210/0.241111.1757
 identifier: DANDI:001210
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001210/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001210/0.241111.1757/assets.yaml
 name: Intrinsic optical imaging (IOI) and GCaMP mouse brain data, with and without
   rigidified carotid artery
 publishedBy:
@@ -75,5 +76,5 @@ publishedBy:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001210/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001210/0.241111.1757
+version: 0.241111.1757
